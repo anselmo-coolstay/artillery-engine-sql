@@ -33,7 +33,7 @@
   "dependencies": {
     "any-db": "^2.2.0",
     "@immoweb/any-db-mssql": "^1.0.0",
-    "any-db-mysql": "^2.1.2",
+    "any-db-mysql": "^2.3.0",
     "any-db-postgres": "^2.1.5",
     "any-db-sqlite3": "^2.1.4",
     "artillery-core": "^4.6.0",
