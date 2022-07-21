@@ -151,7 +151,7 @@ SQLEngine.prototype.compile = function compile (tasks, scenarioSpec, ee) {
         if (err) {
           debug(err);
         }
-        initialContext.sql.close();
+        initialContext.sql.end();
 
         return callback(err, context);
       });
